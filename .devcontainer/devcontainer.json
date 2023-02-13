@@ -1,3 +1,5 @@
 {
-   "image": "mcr.microsoft.com/devcontainers/base"
+"image": "mcr.microsoft.com/devcontainers/base",
+"onCreateCommand": "touch \"onCreateCommand.`date +%s`.testMarker\" && echo 'RUNNING YOUR ON CREATE COMMAND'",
+"postAttachCommand": "touch \"postAttachCommand.`date +%s`.testMarker\" && echo 'RUNNING YOUR POST ATTACH COMMAND'"
 }
