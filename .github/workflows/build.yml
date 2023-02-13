@@ -30,5 +30,4 @@ jobs:
         uses: devcontainers/ci@v0.2
         with:
           imageName: ghcr.io/${{ github.repository }}
-          cacheFrom: ghcr.io/${{ github.repository }}
           push: always
