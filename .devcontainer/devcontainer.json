@@ -1,4 +1,3 @@
 {
-   "image": "mcr.microsoft.com/devcontainers/base",
-   "postAttachCommand": "echo 'RUNNING POSTATTACHCOMMAND'"
+   "image": "mcr.microsoft.com/devcontainers/base"
 }
