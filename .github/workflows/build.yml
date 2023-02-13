@@ -15,3 +15,6 @@ jobs:
 
       - name: Build and run dev container task
         uses: devcontainers/ci@v0.2
+        with:
+          imageName: ghcr.io/joshspicer/image-with-embedded-postAttach
+
